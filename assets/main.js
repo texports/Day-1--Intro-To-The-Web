@@ -1,5 +1,5 @@
 window.onload = function () {
-    function spinSetence() {
+    function spinSentence() {
         const sentences = [
             'Trên con đường thành công không có dấu chân của kẻ lười biếng... Vì tụi nó đi xe hết rồi :-s',
             'Đây là khóa học Lập trình Web',
@@ -11,8 +11,7 @@ window.onload = function () {
     }
     const wrapper = document.getElementById('text-wrapper');
     setInterval(() => {
-        let sentence = spinSetence();
-        console.log(wrapper);
+        let sentence = spinSentence();
         wrapper.innerText = sentence;
     }, 3000)
 }
